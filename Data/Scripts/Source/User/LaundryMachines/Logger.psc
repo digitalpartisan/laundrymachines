@@ -1,7 +1,5 @@
 Scriptname LaundryMachines:Logger Hidden Const DebugOnly
 
-Import DialogueDrinkingBuddyScript
-
 String Function getName() Global
 	return "LaundryMachines"
 EndFunction
