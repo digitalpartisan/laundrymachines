@@ -1,4 +1,4 @@
 SCAFFOLD_TEMP_CONFIG_MOD="LaundryMachines"
 SCAFFOLD_TEMP_CONFIG_GAME="fallout4"
-SCAFFOLD_TEMP_CONFIG_DEPENDENCIES="Jiffy,InjectTec,DynamicTerminal,Chronicle,RecipeContainer,Spawny"
+SCAFFOLD_TEMP_CONFIG_DEPENDENCIES="Jiffy,InjectTec,DynamicTerminal,Chronicle,RecipeContainer,SimpleSettlementSolutions,Spawny"
 SCAFFOLD_TEMP_CONFIG_EXCLUSIONPATTERN=""
