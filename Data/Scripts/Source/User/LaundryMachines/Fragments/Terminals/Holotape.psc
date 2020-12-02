@@ -17,6 +17,14 @@ PackagePaginator.init(akTerminalRef, PackageData)
 EndFunction
 ;END FRAGMENT
 
+;BEGIN FRAGMENT Fragment_Terminal_03
+Function Fragment_Terminal_03(ObjectReference akTerminalRef)
+;BEGIN CODE
+Game.GetPlayer().MoveTo(LaundryMachinesDebugMarker)
+;END CODE
+EndFunction
+;END FRAGMENT
+
 ;END FRAGMENT CODE - Do not edit anything between this and the begin comment
 
 Chronicle:Engine:Handler Property LaundryMachines_Engine_Handler Auto Const Mandatory
@@ -24,3 +32,5 @@ Chronicle:Engine:Handler Property LaundryMachines_Engine_Handler Auto Const Mand
 Chronicle:Package:Paginator Property PackagePaginator Auto Const Mandatory
 
 Chronicle:Package:ListWrapper Property PackageData Auto Const Mandatory
+
+ObjectReference Property LaundryMachinesDebugMarker Auto Const Mandatory
